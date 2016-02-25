@@ -5631,4 +5631,11 @@ body {
 .jumbotron img {
   width: 100%; }
 
+.icon {
+  width: 100%; }
+
+.service {
+  border-bottom: solid 1px gray;
+  padding: 20px 0; }
+
 /*# sourceMappingURL=style.css.map */
