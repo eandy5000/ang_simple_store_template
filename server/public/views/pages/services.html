@@ -4,67 +4,16 @@
     <h1>Services</h1>
   </div>
   <div class="row service">
+    <div ng-repeat= "service in services">
     <div class="col-md-2">
-      <img src="http://techguystaging.com/files/computer-icon.png" alt="logo" class="icon"/>
+      <img src="{{service.img}}" alt="logo" class="icon"/>
     </div>
     <div class="col-md-10">
-      <h1>Hardware Repair</h1>
-      <p>
-        Pellentesque sollicitudin, nulla non porttitor lacinia, urna lacus bibendum neque, id imperdiet nibh ex ut turpis. Vestibulum sit amet interdum mi. In vitae eros tellus. Cras gravida, erat vitae venenatis malesuada,
-      </p>
-      <p>
-        Pellentesque sollicitudin, nulla non porttitor lacinia, urna lacus bibendum neque, id imperdiet nibh ex ut turpis. Vestibulum sit amet interdum mi. In vitae eros tellus. Cras gravida, erat vitae venenatis malesuada,
-      </p>
+      <h1>{{service.name}}</h1>
+        <p>
+          {{service.description}}
+        </p>
       <a href="../pages/contact.html" class="btn btn-primary">Contact Us!</a>
     </div>
-
+    </div>
   </div>
-  <div class="row service">
-    <div class="col-md-2">
-      <img src="http://techguystaging.com/files/computer-icon.png" alt="logo" class="icon"/>
-    </div>
-    <div class="col-md-10">
-      <h1>Support</h1>
-      <p>
-        Pellentesque sollicitudin, nulla non porttitor lacinia, urna lacus bibendum neque, id imperdiet nibh ex ut turpis. Vestibulum sit amet interdum mi. In vitae eros tellus. Cras gravida, erat vitae venenatis malesuada,
-      </p>
-      <p>
-        Pellentesque sollicitudin, nulla non porttitor lacinia, urna lacus bibendum neque, id imperdiet nibh ex ut turpis. Vestibulum sit amet interdum mi. In vitae eros tellus. Cras gravida, erat vitae venenatis malesuada,
-      </p>
-      <a href="../pages/contact.html" class="btn btn-primary">Contact Us!</a>
-    </div>
-
-  </div>
-  <div class="row service">
-    <div class="col-md-2">
-      <img src="http://techguystaging.com/files/computer-icon.png" alt="logo" class="icon"/>
-    </div>
-    <div class="col-md-10">
-      <h1>Virus Removal</h1>
-      <p>
-        Pellentesque sollicitudin, nulla non porttitor lacinia, urna lacus bibendum neque, id imperdiet nibh ex ut turpis. Vestibulum sit amet interdum mi. In vitae eros tellus. Cras gravida, erat vitae venenatis malesuada,
-      </p>
-      <p>
-        Pellentesque sollicitudin, nulla non porttitor lacinia, urna lacus bibendum neque, id imperdiet nibh ex ut turpis. Vestibulum sit amet interdum mi. In vitae eros tellus. Cras gravida, erat vitae venenatis malesuada,
-      </p>
-      <a href="../pages/contact.html" class="btn btn-primary">Contact Us!</a>
-    </div>
-
-  </div>
-  <div class="row service">
-    <div class="col-md-2">
-      <img src="http://techguystaging.com/files/computer-icon.png" alt="logo" class="icon"/>
-    </div>
-    <div class="col-md-10">
-      <h1>Specialty Service</h1>
-      <p>
-        Pellentesque sollicitudin, nulla non porttitor lacinia, urna lacus bibendum neque, id imperdiet nibh ex ut turpis. Vestibulum sit amet interdum mi. In vitae eros tellus. Cras gravida, erat vitae venenatis malesuada,
-      </p>
-      <p>
-        Pellentesque sollicitudin, nulla non porttitor lacinia, urna lacus bibendum neque, id imperdiet nibh ex ut turpis. Vestibulum sit amet interdum mi. In vitae eros tellus. Cras gravida, erat vitae venenatis malesuada,
-      </p>
-      <a href="../pages/contact.html" class="btn btn-primary">Contact Us!</a>
-    </div>
-
-  </div>
-</div>

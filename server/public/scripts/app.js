@@ -17,7 +17,7 @@ app.config(function($routeProvider){
     })
     .when('/contact', {
       templateUrl:'pages/contact.html',
-      controller: 'MainCtrl'
+      controller: 'ContactCtrl'
     })
 
 });
@@ -30,7 +30,16 @@ console.log("this is main");
 app.controller('ServicesCtrl', ['$scope', '$http',function($scope, $http){
 
 $http.get('../data/services.json').then(function(res){
-  console.log(res);
+  $scope.services = res.data;
+
 });
+
+}]);
+
+app.controller('ContactCtrl',['$scope', '$http', function($scope, $http){
+
+  $http.get('../data/locations.json').then(function(res){
+    $scope.locations = res.data;
+  });
 
 }]);
